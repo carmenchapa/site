@@ -1,5 +1,5 @@
 body {
-  height: calc(100vh - 8vw);
+  height: calc(100% - 8vw);
   font: 12px Helvetica, Arial, sans-serif;
   background: #212121;
   color: #fff;
@@ -34,6 +34,7 @@ a {
 #content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: calc(100vh - 8vw);
 }
 
