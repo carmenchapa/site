@@ -1,5 +1,6 @@
 body {
-  height: calc(100% - 8vw);
+  /* height: calc(100% - 8vw); */
+  height: calc(var(--vh, 1vh) * 100 - 8vw);
   font: 12px Helvetica, Arial, sans-serif;
   background: #212121;
   color: #fff;
@@ -35,7 +36,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100% - 8vw);
+  /* height: calc(100% - 8vw); */
+  height: calc(var(--vh, 1vh) * 100 - 8vw);
 }
 
 #email {
