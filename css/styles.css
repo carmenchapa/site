@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  font: 12px Helvetica, Arial, sans-serif;
+  background: #212121;
+  color: #fff;
+  margin: 0;
+  padding: 5vw;
+  padding-top: 0;
+  /* padding-left: 5vw; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-family: "DM Serif Text", serif;
+  font-size: 13rem;
+  font-weight: 400;
+  margin-block-start: -0.1em;
+  margin-block-end: -0.1em;
+}
+
+p {
+  font-size: 5rem;
+  font-weight: 200;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+a {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+#content {
+  position: fixed;
+  height: calc(100vh - 5vw);
+  display: flex;
+  flex-direction: column;
+}
+
+#email {
+  display: flex;
+  align-items: flex-end;
+}
