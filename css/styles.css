@@ -61,6 +61,8 @@ dialog {
   top: 5vw;
   right: -65vw;
   padding: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
   background: #fafafa;
   color: #212121;
   border: 1px solid #212121;
