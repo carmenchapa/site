@@ -4,7 +4,7 @@ body {
     Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   /* background: #212121; */
-  background: #ef5f49;
+  background: #ff6347;
   color: #fff;
   margin: calc(20px + 2vw);
 }
@@ -89,7 +89,7 @@ dialog {
   padding-right: 24px;
   background: #fafafa;
   color: #212121;
-  border: 0px solid #ef5f49;
+  border: 0px solid #ff6347;
   border-radius: 10px;
   /* animation */
   opacity: 0;
