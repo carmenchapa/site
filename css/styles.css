@@ -15,8 +15,8 @@ body {
 h1 {
   font-family: "DM Serif Text", serif;
   font-weight: 300;
-  font-size: 14vw;
-  line-height: 14vw;
+  font-size: 13vw;
+  line-height: 13vw;
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
@@ -38,6 +38,7 @@ p {
 #email {
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   height: 100%;
 }
 
@@ -90,6 +91,13 @@ span {
   font-size: 22px;
 }
 
+a {
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-device-width: 620px) {
   #email {
     margin-bottom: 70px;
@@ -128,8 +136,8 @@ span {
 
 @media screen and (min-width: 620px) and (max-width: 900px) {
   h1 {
-    font-size: 18vw;
-    line-height: 17vw;
+    font-size: 17vw;
+    line-height: 16vw;
   }
 
   p {
@@ -151,7 +159,7 @@ span {
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
   h1 {
-    font-size: 16vw;
-    line-height: 16vw;
+    font-size: 15vw;
+    line-height: 15vw;
   }
 }
