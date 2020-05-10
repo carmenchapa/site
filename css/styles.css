@@ -122,7 +122,7 @@ dialog {
 
 @media (max-device-width: 768px) and (orientation: landscape) {
   #content {
-    width: 100vh;
+    padding-top: 20px;
     height: calc(100vw - 2 * (20px + 2vw));
   }
   #email {
