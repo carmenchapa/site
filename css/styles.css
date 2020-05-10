@@ -15,14 +15,14 @@ body {
 h1 {
   font-family: "DM Serif Text", serif;
   font-weight: 300;
-  font-size: 13vw;
-  line-height: 13vw;
+  font-size: 12vw;
+  line-height: 12vw;
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
 
 p {
-  font-size: 6vw;
+  font-size: 5.5vw;
   font-weight: 200;
   margin-block-start: 0.2em;
   margin-block-end: 0.2em;
@@ -159,7 +159,11 @@ a {
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
   h1 {
-    font-size: 15vw;
-    line-height: 15vw;
+    font-size: 14vw;
+    line-height: 14vw;
   }
+
+  /* p {
+    font-size: 6vw;
+  } */
 }
