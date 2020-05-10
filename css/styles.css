@@ -1,12 +1,12 @@
 body {
-  height: calc(100vh - 8vw);
+  height: calc(100vh - 2 * (16px + 4vw));
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  background: #212121;
+  /* background: #212121; */
+  background: #ef5f49;
   color: #fff;
-  margin: 0;
-  margin: 4vw;
+  margin: calc(16px + 4vw);
 }
 ::-webkit-scrollbar {
   display: none;
@@ -15,14 +15,14 @@ body {
 h1 {
   font-family: "DM Serif Text", serif;
   font-weight: 300;
-  font-size: 12vw;
-  line-height: 12vw;
+  font-size: 12.4vw;
+  line-height: 12.4vw;
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
 
 p {
-  font-size: 5.5vw;
+  font-size: 5.4vw;
   font-weight: 200;
   margin-block-start: 0.2em;
   margin-block-end: 0.2em;
@@ -45,7 +45,15 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100vh - 8vw);
+  height: calc(100vh - 2 * (16px + 4vw));
+}
+
+#titleBox {
+  width: 75vw;
+}
+
+#mainTextBox {
+  width: 60vw;
 }
 
 #email {
@@ -58,7 +66,7 @@ a {
 #emailText {
   font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 4vw;
+  font-size: 3.2vw;
   cursor: pointer;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -173,16 +181,12 @@ dialog {
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
   h1 {
-    font-size: 14vw;
-    line-height: 14vw;
+    font-size: 13.6vw;
+    line-height: 13.6vw;
   }
 
   a {
     font-size: 2.6vw;
     line-height: 4vw;
   }
-
-  /* p {
-    font-size: 6vw;
-  } */
 }
