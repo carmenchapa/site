@@ -1,12 +1,12 @@
 body {
-  height: calc(100vh - 2 * (16px + 4vw));
+  height: calc(100vh - 2 * (20px + 2vw));
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   /* background: #212121; */
   background: #ef5f49;
   color: #fff;
-  margin: calc(16px + 4vw);
+  margin: calc(20px + 2vw);
 }
 ::-webkit-scrollbar {
   display: none;
@@ -45,7 +45,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100vh - 2 * (16px + 4vw));
+  height: calc(100vh - 2 * (20px + 2vw));
 }
 
 #titleBox {
@@ -166,7 +166,7 @@ dialog {
     font-size: 4vw;
   }
   a {
-    font-size: 3.4vw;
+    font-size: 3vw;
     line-height: 4vw;
   }
 
@@ -186,7 +186,7 @@ dialog {
   }
 
   a {
-    font-size: 2.6vw;
-    line-height: 4vw;
+    font-size: 2.2vw;
+    line-height: 3.2vw;
   }
 }
