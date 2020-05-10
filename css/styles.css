@@ -112,7 +112,7 @@ dialog {
 
 @media screen and (max-device-width: 620px) {
   #email {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
   #emailText {
     font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular",
