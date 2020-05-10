@@ -94,6 +94,10 @@ span {
   #email {
     margin-bottom: 70px;
   }
+  #emailText {
+    font-family: "HelveticaNeue-Regular", "Helvetica Neue Regular",
+      "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
 }
 
 @media screen and (max-width: 620px) {
