@@ -1,6 +1,6 @@
 body {
   height: calc(100vh - 8vw);
-  font: 12px Helvetica, Arial, sans-serif;
+  font: 5.9vw Helvetica, Arial, sans-serif;
   background: #212121;
   color: #fff;
   margin: 0;
@@ -12,22 +12,18 @@ body {
 
 h1 {
   font-family: "DM Serif Text", serif;
-  font-size: 12rem;
-  line-height: 11rem;
+  font-weight: 300;
+  font-size: 14vw;
+  line-height: 14vw;
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
 
 p {
-  font-size: 5rem;
+  font-size: 6vw;
   font-weight: 200;
   margin-block-start: 0.2em;
   margin-block-end: 0.2em;
-}
-
-a {
-  font-size: 3rem;
-  font-weight: 100;
 }
 
 #content {
@@ -43,8 +39,110 @@ a {
   height: 100%;
 }
 
-@media only screen and (max-device-width: 480px) {
+#emailText {
+  font-size: 4vw;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.transform-scale {
+  transform: scale(0.995);
+  transition: all 150ms ease-in-out;
+}
+
+#emailText:hover {
+  transform: scale(1.005);
+}
+
+dialog {
+  top: 5vw;
+  right: -65vw;
+  padding: 16px;
+  background: #fafafa;
+  color: #424242;
+  border: 1px solid #424242;
+  border-radius: 10px;
+  /* animation */
+  opacity: 0;
+  transition: all 300ms ease-out;
+  -webkit-transition: opacity 300ms linear;
+}
+
+.fullOpacity {
+  opacity: 1;
+}
+
+.copied {
+  font-size: 2vw;
+}
+
+.there {
+  font-size: 1.6vw;
+  font-weight: 100;
+}
+
+span {
+  font-size: 22px;
+}
+
+@media screen and (max-device-width: 620px) {
   #email {
     margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  h1 {
+    font-size: 22vw;
+    line-height: 20vw;
+  }
+
+  p {
+    font-size: 9vw;
+  }
+
+  #emailText {
+    font-size: 6vw;
+  }
+  dialog {
+    right: 0vw;
+  }
+
+  .copied {
+    font-size: 4vw;
+  }
+
+  .there {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 900px) {
+  h1 {
+    font-size: 18vw;
+    line-height: 17vw;
+  }
+
+  p {
+    font-size: 7vw;
+  }
+
+  #emailText {
+    font-size: 4vw;
+  }
+
+  dialog {
+    right: -45vw;
+  }
+
+  dialog {
+    right: -45vw;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  h1 {
+    font-size: 16vw;
+    line-height: 16vw;
   }
 }
