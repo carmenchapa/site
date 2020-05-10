@@ -7,9 +7,14 @@
     <title>maieu studio</title>
     <meta name="description" content="maieu studio" />
     <meta name="author" content="maieu studio" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css?v=1.0" />
@@ -22,8 +27,21 @@
       <p>
         We craft products from the concept to production code.
       </p>
-      <p>Let us do the making.</p>
-      <div id="email"><a>hello@maieustudio.com</a></div>
+      <p>Let's build together.</p>
+      <div id="email">
+        <p
+          type="text"
+          id="emailText"
+          class="transform-scale"
+          onclick="copyEmail()"
+        >
+          hello@maieustudio.com
+        </p>
+      </div>
+      <dialog id="dialog" class="offset">
+        <p class="copied">copied to your clipboard!</p>
+        <p class="there">you are half way there <span>&#x270C;</span></p>
+      </dialog>
     </div>
   </body>
 </html>
