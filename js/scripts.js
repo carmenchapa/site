@@ -11,7 +11,7 @@ function copyEmail() {
       }, 2000)
       window.setTimeout(function () {
         dialog.close()
-      }, 3000)
+      }, 2400)
     },
     function () {
       console.log("something went wrong")

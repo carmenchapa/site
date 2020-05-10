@@ -89,7 +89,7 @@ dialog {
   padding-right: 24px;
   background: #fafafa;
   color: #212121;
-  border: 1px solid #212121;
+  border: 0px solid #ef5f49;
   border-radius: 10px;
   /* animation */
   opacity: 0;
