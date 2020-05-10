@@ -1,6 +1,8 @@
 body {
   height: calc(100vh - 8vw);
-  font: 5.9vw Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   background: #212121;
   color: #fff;
   margin: 0;
@@ -40,8 +42,9 @@ p {
 }
 
 #emailText {
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 4vw;
-  font-weight: 100;
   cursor: pointer;
 }
 
