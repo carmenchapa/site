@@ -51,7 +51,7 @@ p {
 }
 
 #emailText:hover {
-  transform: scale(1.005);
+  transform: scale(1);
 }
 
 dialog {
@@ -59,8 +59,8 @@ dialog {
   right: -65vw;
   padding: 16px;
   background: #fafafa;
-  color: #424242;
-  border: 1px solid #424242;
+  color: #212121;
+  border: 1px solid #212121;
   border-radius: 10px;
   /* animation */
   opacity: 0;
