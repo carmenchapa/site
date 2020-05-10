@@ -120,6 +120,16 @@ dialog {
   }
 }
 
+@media (max-device-width: 768px) and (orientation: landscape) {
+  #content {
+    width: 100vh;
+    height: calc(100vw - 2 * (20px + 2vw));
+  }
+  #email {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 620px) {
   h1 {
     font-size: 22vw;
