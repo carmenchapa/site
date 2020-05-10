@@ -28,6 +28,19 @@ p {
   margin-block-end: 0.2em;
 }
 
+span {
+  font-size: 22px;
+}
+
+a {
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8vw;
+  line-height: 2vw;
+}
+
 #content {
   display: flex;
   flex-direction: column;
@@ -89,18 +102,6 @@ dialog {
   font-weight: 100;
 }
 
-span {
-  font-size: 22px;
-}
-
-a {
-  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
-  text-decoration: none;
-  color: #fff;
-  line-height: 4vw;
-}
-
 @media screen and (max-device-width: 620px) {
   #email {
     margin-bottom: 70px;
@@ -126,6 +127,7 @@ a {
   }
 
   a {
+    font-size: 3vw;
     line-height: 6vw;
   }
 
@@ -155,9 +157,10 @@ a {
   #emailText {
     font-size: 4vw;
   }
-  /* a{
-		line-height: 4vw;
-	} */
+  a {
+    font-size: 3.4vw;
+    line-height: 4vw;
+  }
 
   dialog {
     right: -45vw;
@@ -172,6 +175,11 @@ a {
   h1 {
     font-size: 14vw;
     line-height: 14vw;
+  }
+
+  a {
+    font-size: 2.6vw;
+    line-height: 4vw;
   }
 
   /* p {
